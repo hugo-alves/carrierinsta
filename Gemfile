@@ -12,6 +12,8 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'figaro', '>= 1.0.0.rc1'
 gem 'high_voltage'
+gem 'carrierwave' 
+gem 'activeadmin', github: 'activeadmin'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
